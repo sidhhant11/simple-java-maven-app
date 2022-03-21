@@ -22,4 +22,10 @@ pipeline {
             }
         }
     }
+    Stage('complete'){
+        steps{
+            echo "job completed"
+        }
+     }
+   }
 }
